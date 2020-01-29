@@ -22,7 +22,7 @@ $(document).ready(function(){
 							productHTML += '<tr>'+
 								              '<td>'+''+'</td>'+
 								              '<td>'+ value.product_title +'</td>'+
-								              '<td><img width="60" height="60" src="../product_images/'+value.product_image+'"></td>'+
+								              '<td><img width="60" height="60" src="/product_images/'+value.product_image+'"></td>'+
 								              '<td>'+ value.product_price +'</td>'+
 								              '<td>'+ value.product_qty +'</td>'+
 								              '<td>'+ value.cat_title +'</td>'+
