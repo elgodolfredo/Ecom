@@ -78,7 +78,7 @@ if (isset($_POST['admin_register'])) {
 
 if (isset($_POST['admin_login'])) {
 	// extract($_POST);
-	$email = $_POST['name'];
+	$email = $_POST['email'];
 	$password = $_POST['password'];
 	if (!empty($email) && !empty($password)) {
 		$c = new Credentials();
